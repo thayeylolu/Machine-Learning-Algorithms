@@ -6,7 +6,9 @@ def conditional_probability (a, b, n):
     """
     prob_a = np.count(a)/ n
     prob_b = np.count(b)/n
+    cond_prob = prob_a * prob_b
 
+    return cond_prob
     pass 
 
 def naives_bayes():
