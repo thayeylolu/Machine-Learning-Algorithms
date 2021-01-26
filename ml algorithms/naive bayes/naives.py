@@ -4,9 +4,9 @@ def conditional_probability (a, b, n):
     """
     conditional probability of an Event A given that an event B occurs
     """
-    prob_a = count(a)/ n
-    prob_b = count(b)/n
-    
+    prob_a = np.count(a)/ n
+    prob_b = np.count(b)/n
+
     pass 
 
 def naives_bayes():
